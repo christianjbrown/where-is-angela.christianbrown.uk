@@ -10,7 +10,7 @@ The event is a relay from Düsseldorf to Brussels through Germany 🇩🇪, the
 Netherlands 🇳🇱 and Belgium 🇧🇪, from
 Friday 25 to Monday 28 September 2026. The course is about 836 km, run day and
 night by teams taking turns. Angela is in Group A and travels between her
-legs in Bus 2 🚌. And it starts on her birthday. 🎂
+legs in Bus 2 🚌.
 
 She runs six legs, 232.9 km in all, then joins the whole group for the run in
 to the finish in Brussels on Monday afternoon 🏁:
