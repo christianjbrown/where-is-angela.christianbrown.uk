@@ -1,5 +1,9 @@
 # Where is Angela? 🏃‍♀️
 
+[![Deploy](https://github.com/christianjbrown/where-is-angela.christianbrown.uk/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/christianjbrown/where-is-angela.christianbrown.uk/actions/workflows/deploy.yml)
+[![Live](https://img.shields.io/website?url=https%3A%2F%2Fwhere-is-angela.christianbrown.uk&label=live&up_message=up&down_message=down)](https://where-is-angela.christianbrown.uk)
+[![Built with Relay Race Tracker](https://img.shields.io/badge/built%20with-Relay%20Race%20Tracker-EB6834)](https://github.com/christianjbrown/relay-race-tracker-web-app)
+
 A live map of Angela running the ING Feel Good Event 2026, at
 [where-is-angela.christianbrown.uk](https://where-is-angela.christianbrown.uk).
 The event is a relay from Düsseldorf to Brussels through Germany 🇩🇪, the
@@ -21,6 +25,11 @@ to the finish in Brussels on Monday afternoon 🏁:
 | 6 | 🇧🇪 ☀️ | Mon 08:30 | Kapellen | Willebroek | 39 |
 
 🌙 marks a leg run in the dark.
+
+<p>
+  <img src="docs/screenshot-desktop.png" width="72%" alt="The page on a computer: Angela halfway through leg 3, Sögel to Rhede, with 21.6 km to go and live GPS, on a dark map of the whole route">
+  <img src="docs/screenshot-phone.png" width="24%" alt="The page on a phone later on the same leg: Angela on leg 3 with 12.5 km to go">
+</p>
 
 📡 The page follows her with Chronorace's live GPS trackers: the team's runner
 tracker while she is on a leg, and her bus between legs. It shows where she
