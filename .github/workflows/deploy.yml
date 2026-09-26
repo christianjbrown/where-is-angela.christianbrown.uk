@@ -1,5 +1,5 @@
-# Builds the page from site/ with the engine and publishes it to GitHub
-# Pages. Pull requests build it too, so a broken site/ or engine bump fails
+# Builds the page from config/ with the engine and publishes it to GitHub
+# Pages. Pull requests build it too, so a broken config/ or engine bump fails
 # before it can merge; only main is published.
 name: Deploy
 
@@ -29,7 +29,7 @@ jobs:
           cache: npm
           cache-dependency-path: engine/package-lock.json
       - run: cd engine && npm ci
-      - run: node engine/tools/build.js --site site --out dist
+      - run: node engine/tools/build.js --config config --out dist
       - if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
