@@ -1,4 +1,4 @@
-# where-is-angela-2.christianbrown.uk
+# where-is-angela.christianbrown.uk
 
 Angela's page for the relay, built with
 [relay-race-tracker-web-app](https://github.com/christianjbrown/relay-race-tracker-web-app),
@@ -13,4 +13,4 @@ which is included here as the `engine` submodule.
   then commit the submodule and the rebuilt files together.
 
 The Google Maps key in `site/config.json` is restricted by referrer to this
-site, where-is-angela.christianbrown.uk and localhost:8765.
+site and localhost:8765.

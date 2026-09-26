@@ -25,8 +25,8 @@
     "vehicleTracker": "BUS2"
   },
   "site": {
-    "url": "https://where-is-angela-2.christianbrown.uk/",
-    "indexable": false
+    "url": "https://where-is-angela.christianbrown.uk/",
+    "indexable": true
   },
   "mapsApiKey": "AIzaSyCiyt2fvikZpeneqSd9M8QMaUXTnMHTUmc"
 }
