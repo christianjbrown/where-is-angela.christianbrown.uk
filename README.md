@@ -1,30 +1,33 @@
-# Where is Angela?
+# Where is Angela? 🏃‍♀️
 
 A live map of Angela running the ING Feel Good Event 2026, at
 [where-is-angela.christianbrown.uk](https://where-is-angela.christianbrown.uk).
-The event is a relay from Düsseldorf to Brussels through Germany, the Netherlands and Belgium, from
+The event is a relay from Düsseldorf to Brussels through Germany 🇩🇪, the
+Netherlands 🇳🇱 and Belgium 🇧🇪, from
 Friday 25 to Monday 28 September 2026. The course is about 836 km, run day and
 night by teams taking turns. Angela is in Group A and travels between her
-legs in Bus 2.
+legs in Bus 2 🚌. And it starts on her birthday. 🎂
 
 She runs six legs, 232.9 km in all, then joins the whole group for the run in
-to the finish in Brussels on Monday afternoon:
+to the finish in Brussels on Monday afternoon 🏁:
 
-| Leg | Starts (CEST) | From | To | km |
-|---|---|---|---|---|
-| 1 | Fri 15:00 | Düsseldorf | Oberhausen | 38 |
-| 2 | Sat 03:00 | Legden | Rheine | 39.5 |
-| 3 | Sat 15:00 | Sögel | Rhede (Ems) | 39.2 |
-| 4 | Sun 03:00 | Lutjegast | Leeuwarden | 36.9 |
-| 5 | Sun 20:30 | Voorschoten | Barendrecht | 40.3 |
-| 6 | Mon 08:30 | Kapellen | Willebroek | 39 |
+| Leg | | Starts (CEST) | From | To | km |
+|---|---|---|---|---|---|
+| 1 | 🇩🇪 ☀️ | Fri 15:00 | Düsseldorf | Oberhausen | 38 |
+| 2 | 🇩🇪 🌙 | Sat 03:00 | Legden | Rheine | 39.5 |
+| 3 | 🇩🇪 ☀️ | Sat 15:00 | Sögel | Rhede (Ems) | 39.2 |
+| 4 | 🇳🇱 🌙 | Sun 03:00 | Lutjegast | Leeuwarden | 36.9 |
+| 5 | 🇳🇱 🌙 | Sun 20:30 | Voorschoten | Barendrecht | 40.3 |
+| 6 | 🇧🇪 ☀️ | Mon 08:30 | Kapellen | Willebroek | 39 |
 
-The page follows her with Chronorace's live GPS trackers: the team's runner
+🌙 marks a leg run in the dark.
+
+📡 The page follows her with Chronorace's live GPS trackers: the team's runner
 tracker while she is on a leg, and her bus between legs. It shows where she
 is, what she is doing, when her leg will finish or the bus will arrive, and
 what comes next.
 
-## How it is built
+## 🛠️ How it is built
 
 The page is made with
 [relay-race-tracker-web-app](https://github.com/christianjbrown/relay-race-tracker-web-app),
