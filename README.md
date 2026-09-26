@@ -1,8 +1,15 @@
 # where-is-angela.christianbrown.uk
 
-Angela's page for the relay, built with
+Angela's page for the relay, live at
+[where-is-angela.christianbrown.uk](https://where-is-angela.christianbrown.uk),
+built with
 [relay-race-tracker-web-app](https://github.com/christianjbrown/relay-race-tracker-web-app),
 which is included here as the `engine` submodule.
+
+To set up a page like this for someone you want to follow, start with the
+[relay tracker's README](https://github.com/christianjbrown/relay-race-tracker-web-app#readme).
+It explains everything in `site/` and how to publish it. This repository is a
+finished example of the result.
 
 - `site/` holds everything about Angela and the event: `config.json`,
   `schedule.json`, `route.json`, her sticker (`avatar.png`) and the domain
