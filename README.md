@@ -18,6 +18,9 @@ finished example of the result.
   GitHub Pages publishes `main` as it is, with no Actions.
 - To take a newer engine, `cd engine && git pull origin main`, then rebuild,
   then commit the submodule and the rebuilt files together.
+- A pull request can only be merged once the build check passes. It
+  rebuilds the page and fails if what is committed does not match, which
+  catches a change to `site/` or the engine without a rebuild.
 
 The Google Maps key in `site/config.json` is restricted by referrer to this
 site and localhost:8765.
