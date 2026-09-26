@@ -12,15 +12,24 @@ It explains everything in `site/` and how to publish it. This repository is a
 finished example of the result.
 
 - `site/` holds everything about Angela and the event: `config.json`,
-  `schedule.json`, `route.json`, her sticker (`avatar.png`) and the domain
-  (`CNAME`).
-- `./build.sh` rebuilds the page into this folder. Commit what it writes:
-  GitHub Pages publishes `main` as it is, with no Actions.
-- To take a newer engine, `cd engine && git pull origin main`, then rebuild,
-  then commit the submodule and the rebuilt files together.
-- A pull request can only be merged once the build check passes. It
-  rebuilds the page and fails if what is committed does not match, which
-  catches a change to `site/` or the engine without a rebuild.
+  `schedule.json`, `route.json` and her sticker (`avatar.png`). It is the
+  only thing to edit.
+- The `Deploy` workflow builds the page from `site/` with the engine and
+  publishes it to GitHub Pages on every push to `main`. Nothing built is
+  committed. Pull requests build it too, and cannot merge unless the build
+  passes.
+- The domain is set in the repository's Pages settings.
+- To take a newer engine, `cd engine && git pull origin main`, then commit
+  the submodule.
+
+To look at it locally:
+
+```bash
+git submodule update --init
+(cd engine && npm ci)
+node engine/tools/build.js --site site --out dist
+npx --prefix engine sirv dist --port 8765
+```
 
 The Google Maps key in `site/config.json` is restricted by referrer to this
 site and localhost:8765.
