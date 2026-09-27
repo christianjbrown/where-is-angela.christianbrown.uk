@@ -34,7 +34,9 @@ to the finish in Brussels on Monday afternoon 🏁:
 📡 The page follows her with Chronorace's live GPS trackers: the team's runner
 tracker while she is on a leg, and her bus between legs. It shows where she
 is, what she is doing, when her leg will finish or the bus will arrive, and
-what comes next.
+what comes next. While she rests, rides the bus or waits to take over, the
+team's runner tracker stays on the map as a faded badge, showing how far the
+relay has got.
 
 ## 🛠️ How it is built
 
