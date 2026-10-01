@@ -1,0 +1,21 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "git-submodules": { "enabled": true },
+  "description": [
+    "Renovate keeps the engine submodule and the SHA-pinned GitHub Actions current. Every update arrives as a pull request and has to pass the required checks before it merges.",
+    "Auto-merge: minor, patch and digest updates merge through GitHub native auto-merge once those checks pass.",
+    "MAJOR updates stay manual, because they can need code changes.",
+    "The engine submodule is relay-race-tracker-web-app. Bumping it here is how this page picks up fixes made there."
+  ],
+  "dependencyDashboard": true,
+  "automerge": true,
+  "platformAutomerge": true,
+  "packageRules": [
+    {
+      "description": "Keep major updates manual - they need review before merging.",
+      "matchUpdateTypes": ["major"],
+      "automerge": false
+    }
+  ]
+}
