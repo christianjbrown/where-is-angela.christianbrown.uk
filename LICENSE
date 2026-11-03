@@ -1,0 +1,8 @@
+Copyright (c) 2026 Christian Brown. All rights reserved.
+
+This repository is published for viewing only. No permission is granted to
+use, copy, modify or distribute any part of it without written permission.
+
+The engine/ submodule is a separate project,
+christianjbrown/relay-race-tracker-web-app, and keeps its own MIT licence.
+See engine/LICENSE.
