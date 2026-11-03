@@ -69,3 +69,10 @@ npx --prefix engine sirv dist --port 8765
 
 The Google Maps key in `config/config.json` is restricted by referrer to this
 site and localhost:8765.
+
+## 📜 Licence
+
+All rights reserved, so this page is look-but-don't-touch 👀. See
+[LICENSE](LICENSE). Want a tracker of your own? The engine is MIT, so
+[grab that instead](https://github.com/christianjbrown/relay-race-tracker-web-app)
+and point it at your own runner.
